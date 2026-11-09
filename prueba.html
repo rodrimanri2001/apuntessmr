@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Jose Antonio Cueto Fernandez - 1EVAL</title>
+		<style type="text/css">
+
+			img {
+				height: 70px;
+				width: 110px;
+			}
+
+			table {
+				border-top-style: dashed;
+				border-top-color: blue;
+			}
+
+			.colorpais {
+				color: red;
+				border-color: black;
+			}
+		</style>
+	
+	</head>
+
+	<body>
+		<table border="10px" cellpadding="12px">
+			<!-- Fila 1 -->
+			<tr bgcolor="green">
+				<th colspan="3" align="center" valign="middle">Países más visitados de Europa</th> <!-- He incluido igualmente el align y valign aunque el propio th al ser una cabecera lo hace automaticamente -->
+			</tr>
+			<!-- Fila 2 -->
+			<tr bgcolor="yellow"> <!-- Me pasa lo mismo que en la primera fila, al ser th ya se automatiza el estar centrado y en negrita, pero igualmente dejo en esta linea comentada que se haria con <b> y con align y valign -->
+				<th>Continente</th>
+				<th>País</th>
+				<th>Imagen</th>
+			</tr>
+			<!-- Fila 3 -->
+			<tr>
+				<td rowspan="4" align="center" valign="middle">Europa</td>
+				<td align="right" class="colorpais">Francia</td>
+				<td rowspan="4"><img src="europa.jpg" title="Continente en el hemisferio norte"></img></td>
+			</tr>
+			<!-- Fila 4 -->
+			<tr>
+				<td align="right" class="colorpais">España</td>
+			</tr>
+			<!-- Fila 5 -->
+			<tr>
+				<td class="colorpais" align="right">Italia</td>
+			</tr>
+			<!-- Fila 6 -->
+			<tr>
+				<td class="colorpais" align="right">Turquía</td>
+				
+			</tr>
+			<!-- Fila 7 -->
+			<tr>
+				<td colspan="3" align="center" valign="middle"><a href="https://paseandoporeuropa.com/es">Paseando por Europa</a></td>
+			</tr>
+		</table>
+	</body>
+</html>
